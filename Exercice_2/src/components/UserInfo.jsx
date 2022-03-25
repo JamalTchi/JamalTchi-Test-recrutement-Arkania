@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './UserInfo.module.css'
-import avatar from '../../../../assets/nft-3d.png';
+import avatar from '../../../assets/nft-3d.png';
 import Button from '@mui/material/Button';
 
 function UserInfo() {
