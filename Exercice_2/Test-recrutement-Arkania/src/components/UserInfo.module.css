@@ -1,0 +1,47 @@
+.profil {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #bd863d;
+}
+
+.containerProfil {
+    padding: 15px;
+}
+
+.picture {
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border: 2px solid #874f04;
+}
+
+.picture img {
+    width: 220px;
+    height: 220px;
+}
+
+.profilInfo p {
+    margin: 0;
+}
+
+.profilInfo :nth-child(1) {
+    margin-right: 50px;
+}
+
+.profilInfo :nth-child(3) {
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background-color: #005826;
+}
